@@ -22,10 +22,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // MARK: - 1️⃣ emojiArray  الي  animal قم باضافه متغير
         
+        var _ = emojiArray
         
+        if animal == "cat"
+        {
+            emojiArray.append("🐱")
+        }
+        if animal == "dog" {
+        emojiArray.append("🐶")
+        }
         
-        
-        
+        if animal == "frog" {
+            emojiArray.append("🐸")
+        }
+        if animal == "monkey" {
+            emojiArray.append("🐵")
+        }
+        if animal == "lion" {
+            emojiArray.append("🦁")
+        }
         
         
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
@@ -38,6 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         /// **BONUS**: 🎁 قم بمسح مكونات المصفوفة بعد عرضها
    
+        emojiArray.removeAll()
     
         
         
